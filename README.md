@@ -26,7 +26,9 @@ This project is not a standalone desktop app. It must be hosted by a web server 
 1. Install a local web server and PHP.
 2. Clone or copy this repository into the web server's document root.
 Example:
-> cd /var/www/ && mkdir stremio-anixart && git clone https://github.com/sutoca/stremio-anixart
+```bash
+cd /var/www/ && mkdir stremio-anixart && git clone https://github.com/sutoca/stremio-anixart
+```
 3. Make sure the add-on is reachable by its manifest URL:
 > https://example.com/manifest.json
 4. Open `https://example.com/configure` in your browser and click "Install in Stremio".
